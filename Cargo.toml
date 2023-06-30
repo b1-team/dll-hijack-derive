@@ -1,0 +1,18 @@
+[package]
+name = "dll-hijack-derive"
+version = "1.0.0"
+edition = "2021"
+description = "Dll hijack macro"
+authors = ["b1n <b1nhack@proton.me>"]
+license-file = "LICENSE"
+repository = "https://github.com/b1-team/dll-hijack-derive"
+homepage = "https://twitter.com/b1nhack"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.29"
+syn = { version = "2.0.22", features = ["full"] }
